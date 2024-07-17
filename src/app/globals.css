@@ -624,6 +624,9 @@ justify-content: end;
   /* height: 100vh; */
   padding: 40px 0px 15px !important;
 }
+.section-3{
+  padding: 30px 0px 15px;
+}
 }
 @media (min-width: 451px) and (max-width: 991px) {
   .head-txt h1{
@@ -723,6 +726,9 @@ justify-content: end;
 .workforce-card ul li{
   font-size: 15px;
 }
+.section-3{
+  padding: 50px 0px 25px;
+}
 
 }
 @media (min-width: 992px) and (max-width: 1440px) {
@@ -744,6 +750,9 @@ justify-content: end;
   }
   .workforce-card ul li{
     font-size: 15px;
+  }
+  .section-3{
+    padding: 70px 0px 40px;
   }
 }
 

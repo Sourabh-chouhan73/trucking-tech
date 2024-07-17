@@ -2,7 +2,9 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
-
+import logo from '../images/newlogo2.JPG';
+import logowhitebg from '../images/newlogowhite.JPG';
+import Image from 'next/image';
 
 const NavbarComponent = () => {
     const [expanded, setExpanded] = useState(false);
@@ -11,7 +13,9 @@ const NavbarComponent = () => {
       <Navbar expanded={expanded}   expand="lg"  className='navbar'>
       <Container>
           <Link href="/">
-              <Navbar.Brand className='navbar-brand'>Trucking Techs</Navbar.Brand>
+              <Navbar.Brand className='navbar-brand'>
+                <Image src={logowhitebg} height={50} width={200}></Image>
+              </Navbar.Brand>
           </Link>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => setExpanded(expanded ? false : 'expanded')} />
           <Navbar.Collapse id="responsive-navbar-nav">

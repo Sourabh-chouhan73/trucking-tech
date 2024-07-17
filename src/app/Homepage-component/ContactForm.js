@@ -6,7 +6,7 @@ const ContactForm = () => {
         <section className='section-3'>
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 col-md-12 ">
+            <div className="col-lg-6 col-md-12 mb-4 ">
               <div className='sec-3-contact'>
                 <h4 className='sec-3-title'>Contact</h4>
                 <h2 className='' >Get In Touch Using The Form</h2>
@@ -25,7 +25,7 @@ const ContactForm = () => {
               </div>
 
             </div>
-            <div className="col-lg-6 col-md-12 cont-from-col-2">
+            <div className="col-lg-6 col-md-12 cont-from-col-2 mb-4   ">
               <div className="card cont-form-card">
                 <div className="card-body">
                 <form className='sec-3-cont-form'>
