@@ -18,7 +18,6 @@ const Page = () => {
   return (
     <>
       <TopHeader></TopHeader>
-      {/* <WorkForceCard></WorkForceCard> */}
       <WorkForce></WorkForce>
       <GartnerDigitalMarkets></GartnerDigitalMarkets>
       <OurConnections></OurConnections>

@@ -16,11 +16,11 @@ const OurSupport = () => {
                         <p className='text-center'>
                             Trucking Techs offers free email support for all customers. In addition, Trucking Techs provides customers with user manuals and videos for training purposes. Below is a list of videos to help and we can provide user manuals upon request.
                         </p>
-                        <div className='text-center'>
+                        {/* <div className='text-center'>
                             <button className='btn btn-primary'>View User Guides and Videos</button>
-                        </div>
+                        </div> */}
                         <p className='text-center'>
-                            For additional assistance, please email the support team at <Link className='primary-color' href='mailto:support@truckingtechs.net'>support@transportpro.net</Link>.
+                            For additional assistance, please email the support team at <Link className='primary-color' href='mailto:support@truckingtechs.com'>support@truckingtechs.com</Link>.
                         </p>
                     </div>
                 </div>

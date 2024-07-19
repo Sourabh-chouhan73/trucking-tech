@@ -2,35 +2,37 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="bg-secondary text-white p-4 text-center">
+        <div className="trucking-footer text-white text-center">
           <div className="container">
             <div className="row">
-              <div className="col-md-4">
-                <h5>About Us</h5>
-                <p>Some information about the company.</p>
-              </div>
-              <div className="col-md-4">
-                <h5>Contact</h5>
-                <ul className="list-unstyled">
-                  <li>Phone: (555) 555-5555</li>
-                  <li>Email: info@company.com</li>
-                </ul>
-              </div>
-              <div className="col-md-4">
-                <h5>Follow Us</h5>
-                <ul className="list-unstyled d-flex justify-content-center">
-                    <li className='mx-2'><i class="fa fa-facebook-f"></i></li>
-                    <li className='mx-2'><i class="fa fa-twitter-square"></i></li>
-                    <li className='mx-2'><i class='fa fa-youtube-play'></i></li>
-                    <li className='mx-2'> <i class="fa fa-instagram "></i></li>
-                </ul>
+              <h2>Get Started With Trucking Techs</h2>
+            </div>
+            <div className='row'>
+              <div className='trucking-btn'>
+                <button className='btn btn-primary my-4 text-white'>CHECK OUR PRICES</button>
               </div>
             </div>
-            <div className="mt-3">
-              <p className="mb-0">&copy; {new Date().getFullYear()} Company Name. All Rights Reserved.</p>
+            <div className="row">
+              <div className='my-4 d-flex justify-content-left'>
+                LOgo
+              </div>
+              <hr />
+            </div>
+            <div className="row">
+              <div className="col-lg-8 col-md-8 col-sm-12 footer-col-1 d-flex">
+                <p><a href="">Privacy Policy </a></p> |
+                <p><a href="">Website Terms of Service</a></p>|
+                <p><a href="">Cookie Policy</a></p>|
+                <p><a href="">Your Privacy Choices </a></p><p></p>|
+                <p><a href="">Contact</a></p>
+
+              </div>
+              <div className="col-lg-4 col-md-4 col-sm-12 footer-col-1">
+                <p>© 2024 Samsara Inc.</p>
+              </div>
             </div>
           </div>
-        </footer>
+        </div>
       );
 }
 

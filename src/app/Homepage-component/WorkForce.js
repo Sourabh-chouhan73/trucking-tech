@@ -3,9 +3,13 @@ import Image from 'next/image';
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import 'animate.css';
+import SimpleSlider from './SimpleSlider';
 
 const WorkForce = () => {
+
     const img1 = require('../images/2151541930.jpg');
+    const DispatchManagementSoftwareImgs=[{id:'1', img:'/images/45dfa93b-a646-4ffa-bee1-6d3efd639adf.png'},{ id:'2',img:'/images/daa.png'}];
+    const WorkforceManagementSolutionImgs=[{id:'1',img:'/images/people team.jpg'},{id:'2' ,img:'/images/Sprinklr_-Gurgaon-office_image-1.png'}];
 
     const { ref: ref1, inView: inView1 } = useInView({ triggerOnce: true });
     const { ref: ref2, inView: inView2 } = useInView({ triggerOnce: true });
@@ -17,10 +21,10 @@ const WorkForce = () => {
             <section className='section-10'>
                 <div className="container">
                     <div className="row">
-                        <div ref={ref1} className={`col-lg-6 ${inView1 ? 'animate__animated animate__fadeInLeft' : ''}`}>
-                            <Image className='workforce-img' src={img1} height={400} width={550} alt="Dispatch Management Software"></Image>
+                        <div ref={ref1} className={`col-lg-6 d-flex justify-content-center py-3  workforce-col-1 ${inView1 ? 'animate__animated animate__fadeInLeft' : ''}`}>
+                            <SimpleSlider DispatchManagementSoftwareImgs={DispatchManagementSoftwareImgs}></SimpleSlider>                            
                         </div>
-                        <div ref={ref2} className={`col-lg-6 ${inView2 ? 'animate__animated animate__fadeInRight' : ''}`}>
+                        <div ref={ref2} className={`col-lg-6 d-flex justify-content-center py-3 ${inView2 ? 'animate__animated animate__fadeInRight' : ''}`}>
                             <div className='workforce-card'>
                                 <h3 className='sec-10-title'>Dispatch Management Software</h3>
                                 <ul className='sec-10-ul'>
@@ -45,7 +49,7 @@ const WorkForce = () => {
             <section className='section-10'>
                 <div className="container">
                     <div className="row">
-                        <div ref={ref3} className={`col-lg-6 ${inView3 ? 'animate__animated animate__fadeInLeft' : ''}`}>
+                        <div ref={ref3} className={`col-lg-6 d-flex justify-content-center py-3 ${inView3 ? 'animate__animated animate__fadeInLeft' : ''}`}>
                             <div className='workforce-card'>
                                 <h3 className='sec-10-title'>Workforce Management Solution</h3>
                                 <ul className='sec-10-ul'>
@@ -65,8 +69,8 @@ const WorkForce = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div ref={ref4} className={`col-lg-6 ${inView4 ? 'animate__animated animate__fadeInRight' : ''}`}>
-                            <Image className='workforce-img' src={img1} height={400} width={550} alt="Workforce Management Solution"></Image>
+                        <div ref={ref4} className={`col-lg-6 d-flex justify-content-center py-3  workforce-col-2 ${inView4 ? 'animate__animated animate__fadeInRight' : ''}`}>
+                            <SimpleSlider  DispatchManagementSoftwareImgs={WorkforceManagementSolutionImgs}></SimpleSlider>
                         </div>
                     </div>
                 </div>
