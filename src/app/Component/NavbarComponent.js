@@ -10,11 +10,12 @@ const NavbarComponent = () => {
     const [expanded, setExpanded] = useState(false);
 
     return (
+   
       <Navbar expanded={expanded}   expand="lg"  className='navbar'>
       <Container>
           <Link href="/">
-              <Navbar.Brand className='navbar-brand'>
-                <Image src={logowhitebg} height={50} width={200}></Image>
+              <Navbar.Brand className='navbar-brand' >
+                Trucking Techs
               </Navbar.Brand>
           </Link>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => setExpanded(expanded ? false : 'expanded')} />

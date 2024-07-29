@@ -11,6 +11,7 @@ import ContactForm from './Homepage-component/ContactForm';
 import OurSectors from './Homepage-component/OurSectors';
 import GartnerDigitalMarkets from './Homepage-component/GartnerDigitalMarkets';
 import WorkForce from './Homepage-component/WorkForce';
+import Testimonials from './dispatch-software-demo/Testimonials';
 
 
 const Page = () => {
@@ -19,11 +20,12 @@ const Page = () => {
     <>
       <TopHeader></TopHeader>
       <WorkForce></WorkForce>
-      <GartnerDigitalMarkets></GartnerDigitalMarkets>
+      {/* <GartnerDigitalMarkets></GartnerDigitalMarkets> */}
       <OurConnections></OurConnections>
-      <OurProcess></OurProcess>
-      <GetADemo></GetADemo>
-      <OurSupport></OurSupport>
+      <Testimonials></Testimonials>
+      {/* <OurProcess></OurProcess> */}
+      {/* <GetADemo></GetADemo> */}
+      {/* <OurSupport></OurSupport> */}
     </>
   );
 }
