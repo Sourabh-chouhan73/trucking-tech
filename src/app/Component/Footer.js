@@ -9,9 +9,7 @@ const Footer = () => {
               <h2>Get Started With Trucking Techs</h2>
             </div>
             <div className='row'>
-              <div className='trucking-btn'>
-              Please Email Us for Pricing and Demo Information  <b>  inquiry@truckingtechs.com </b>
-              </div>
+              <div className='trucking-btn'> Please Email Us for Pricing and Demo Information <b>inquiry@truckingtechs.com </b></div>
             </div>
             <div className="row">
               <div className='my-4 d-flex justify-content-left'>

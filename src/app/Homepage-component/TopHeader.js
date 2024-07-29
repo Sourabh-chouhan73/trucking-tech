@@ -2,29 +2,12 @@
 import React, { useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
 import 'animate.css';
-import truck from '../images/truck.JPG';
+import truck from '../images/truck.jpg';
 import Image from 'next/image';
 
 const TopHeader = () => {
-   // const img = required('../images/truck.jpg');
+    // const img = required('../images/truck.jpg');
     const { ref: ref1, inView: inView1 } = useInView({ triggerOnce: true });
-    useEffect(() => {
-        // Create a script element
-        const script = document.createElement('script');
-        script.src = 'https://embed.tawk.to/YOUR_PROPERTY_ID/default';
-        script.async = true;
-        script.charset = 'UTF-8';
-        script.setAttribute('crossorigin', '*');
-    
-        // Append the script to the body
-        document.body.appendChild(script);
-    
-        // Cleanup script when the component unmounts
-        return () => {
-          document.body.removeChild(script);
-        };
-      }, []);
-
     return (
         <>
             <section className='home-top-sec-one'>
@@ -43,14 +26,14 @@ const TopHeader = () => {
 
                             <div className="col-lg-6">
                                 <article class="card-top-sec">
-                                <Image src={truck} height={400} width={550}></Image>
+                                    <Image src={truck} height={400} width={550}></Image>
 
 
-  <span class="top span-top-sec"></span>
-  <span class="right span-top-sec"></span>
-  <span class="bottom span-top-sec"></span>
-  <span class="left span-top-sec"></span>
-</article>
+                                    <span class="top span-top-sec"></span>
+                                    <span class="right span-top-sec"></span>
+                                    <span class="bottom span-top-sec"></span>
+                                    <span class="left span-top-sec"></span>
+                                </article>
                             </div>
                         </div>
                     </div>
