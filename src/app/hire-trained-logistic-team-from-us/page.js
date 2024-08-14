@@ -19,7 +19,7 @@ const Page = () => {
                 <div className="row">
                     <div className="col-lg-6 ">
                         <div className='sec-2-img'>
-                        <Image src={img}></Image>
+                        <Image src={img} height={1000} width={1000} alt='hire'></Image>
                         </div>
                     </div>
                     <div className="col-lg-6">

@@ -20,19 +20,19 @@ const GartnerDigitalMarkets = () => {
                     <div className="row">
                         <div className="col-lg-4">
                             <div className={`digi-col ${inView1 ? "animate__animated animate__fadeInUp" : ""}`} ref={ref1}>
-                                <Image src={img1} height={180} width={220} />
+                                {/* <Image src={img1} height={180} width={220} /> */}
                             </div>
                             <p className='text-center mt-2 digi-text'>FRONT RUNNERS 2024 TOP TRANSPORTATION MANAGEMENT SYSTEMS</p>
                         </div>
                         <div className="col-lg-4">
                             <div className={`digi-col ${inView2 ? "animate__animated animate__fadeInUp animate__delay-1s" : ""}`} ref={ref2}>
-                                <Image src={img2} width={220} />
+                                {/* <Image src={img2} width={220} /> */}
                             </div>
                             <p className='text-center mt-2 digi-text'>CAPTERRA SHORTLIST FOR FLEET MANAGEMENT</p>
                         </div>
                         <div className="col-lg-4">
                             <div className={`digi-col ${inView3 ? "animate__animated animate__fadeInUp animate__delay-2s" : ""}`} ref={ref3}>
-                                <Image src={img3} width={220} />
+                                {/* <Image src={img3} width={220} /> */}
                             </div>
                             <p className='text-center mt-2 digi-text'>TOP RANKING TRANSPORTATION DISPATCH SOFTWARE</p>
                         </div>

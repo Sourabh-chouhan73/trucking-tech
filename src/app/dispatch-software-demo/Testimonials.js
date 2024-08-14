@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'animate.css';
+import Image from 'next/image';
 
 const Testimonials = () => {
    
@@ -25,9 +26,9 @@ const Testimonials = () => {
                         <div key={item.id} className="col-md-4 d-flex align-items-stretch">
                         <div className={`card testimonial animate__animated animate__fadeInUp`}>
                             <div className="card-body text-center">
-                                <img src={item.url} alt="Client 1" className="my-3 client-img" />
+                                <Image src={item.url} alt="Client 1" className="my-3 client-img" width={1000} height={1000} />
                                 <h5 className='mt-5'>{item.title}</h5>
-                                <p> <img src={item.flag} alt=" flag" className='flag-img' /> {item.loc}</p>
+                                <p> <Image src={item.flag} alt="flag" className='flag-img' height={500} width={500}/>{item.loc}</p>
                                 <div className='card-stars mt-4'>
                                     <span className="fa fa-star checked"></span>
                                     <span className="fa fa-star checked"></span>

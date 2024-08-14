@@ -15,17 +15,12 @@ import Testimonials from './dispatch-software-demo/Testimonials';
 
 
 const Page = () => {
-  const macbookIphone = require('./images/2151541930.jpg');
   return (
     <>
       <TopHeader></TopHeader>
       <WorkForce></WorkForce>
-      {/* <GartnerDigitalMarkets></GartnerDigitalMarkets> */}
       <OurConnections></OurConnections>
       <Testimonials></Testimonials>
-      {/* <OurProcess></OurProcess> */}
-      {/* <GetADemo></GetADemo> */}
-      {/* <OurSupport></OurSupport> */}
     </>
   );
 }

@@ -16,19 +16,13 @@ const Topbar = () => {
                         <div className="col-6 topbar-col-2">
                         <div className='topbar-social-icon'>
                             <div className='d-flex mx-4'>
-                                <Image src={indiaimg} height={20} width={35}></Image>
+                                <Image src={indiaimg} height={20} width={35} alt='india'></Image>
                                 <p className='pr-2'><a href="tel:+918965029288">Call Us: +91 8965029288</a></p>
                             </div>
                             <div className='d-flex'>
-                                <Image src={canadaimg} height={20} width={35}></Image>
+                                <Image src={canadaimg} height={20} width={35} alt='canada'></Image>
                                 <p className='pr-2'><a href="tel:+14375773571">Call Us: +1 437-577-3571</a></p>
                             </div>
-                            
-
-                            {/* <i class="fa fa-facebook-f"></i>
-                            <i class="fa fa-twitter-square"></i>
-                            <i class='fa fa-youtube-play'></i>
-                            <i class="fa fa-instagram "></i> */}
                         </div>
                         </div>
                     </div>

@@ -26,7 +26,7 @@ const TopHeader = () => {
 
                             <div className="col-lg-6">
                                 <article class="card-top-sec">
-                                    <Image src={truck} height={400} width={550}></Image>
+                                    <Image src={truck} height={400} width={550} alt='dispatch' ></Image>
 
 
                                     <span class="top span-top-sec"></span>
